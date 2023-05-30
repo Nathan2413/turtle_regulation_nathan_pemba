@@ -2,7 +2,8 @@
 Ce projet GitHub contient les codes et les fichiers nécessaires pour la régulation en cap et en distance d'une tortue dans le simulateur turtlesim.
 
 ## Installation
-1- Clonez ce projet GitHub dans votre workspace catkin catkin_ws/src : 
+1- Clonez ce projet GitHub dans votre workspace catkin catkin_ws/src :
+
 ```git clone https://github.com/votre_nom/turtle_regulation_nathan_pemba.git```
 
 2- Compilez le package en utilisant catkin_make :
