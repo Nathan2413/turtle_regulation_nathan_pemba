@@ -1,34 +1,37 @@
-<package>
-  <name>turtle_regulation_pemba_nathan1</name>
+<?xml version="1.0"?>
+<package format="3">
+  <name>turtle_regulation_pemba_nathan</name>
   <version>1.0.0</version>
   <description>Package for turtle regulation</description>
-  <maintainer email="jusdepoire@example.com">Poire</maintainer>
+
+  <maintainer email="your_email@example.com">Your Name</maintainer>
   <license>MIT</license>
 
-  <!-- Dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+
   <build_depend>rospy</build_depend>
-  <build_depend>turtlesim</build_depend>
-  <run_depend>rospy</run_depend>
-  <run_depend>turtlesim</run_depend>
-
-  <!-- Service dependencies -->
+  <build_depend>roscpp</build_depend>
   <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
   <build_depend>turtlesim</build_depend>
-  <run_depend>std_msgs</run_depend>
-  <run_depend>turtlesim</run_depend>
 
-  <!-- Messages -->
-  <build_depend>turtlesim</build_depend>
-  <run_depend>turtlesim</run_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>turtlesim</exec_depend>
 
-  <!-- Services -->
-  <build_depend>std_srvs</build_depend>
-  <run_depend>std_srvs</run_depend>
-
-  <!-- Package export information -->
   <export>
-    <!-- Specify the ROS message and service files that should be installed -->
-    <message file="msg/Turtle.msg"/>
-    <service file="srv/waypoint.srv"/>
+    <build_type>catkin</build_type>
+    <message_generation></message_generation>
   </export>
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+
+
 </package>
