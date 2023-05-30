@@ -35,12 +35,16 @@ Régulation en cap
 
 2- Le nœud se souscrit au topic /pose pour obtenir la position de la tortue et publie sur le topic /cmd_vel pour envoyer la commande de mouvement.
 
-3- Les paramètres de régulation peuvent être ajustés en modifiant le fichier ```config/set_way_point_distance.yaml.```
+3- Les paramètres de régulation peuvent être ajustés en modifiant le fichier 
+```config/set_way_point_distance.yaml.```
 
-4- Les comportements pour différentes valeurs de Kpl (constante de proportionnalité linéaire) peuvent être observés et ajustés dans le fichier  ```set_way_point_distance.py.```
+4- Les comportements pour différentes valeurs de Kpl (constante de proportionnalité linéaire) peuvent être observés et ajustés dans le fichier 
+
+```set_way_point_distance.py.```
 
 ## Modification du waypoint
 1- Utilisez le service set_waypoint_service pour modifier le waypoint de la tortue.
+
  ```rosservice call /set_waypoint_service "x: 5.0 y: 5.0"```
 
 ## Launch file**
