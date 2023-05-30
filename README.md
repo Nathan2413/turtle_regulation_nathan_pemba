@@ -7,9 +7,10 @@ Ce projet GitHub contient les codes et les fichiers nécessaires pour la régula
 ```git clone https://github.com/votre_nom/turtle_regulation_nathan_pemba.git```
 
 2- Compilez le package en utilisant catkin_make :
-```cd catkin_ws```
 
- ```catkin_make```
+```cd catkin_ws
+
+ catkin_make```
 
 3- Sourcez votre workspace :
 *source catkin_ws/devel/setup.bash
