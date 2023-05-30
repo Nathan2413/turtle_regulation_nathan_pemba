@@ -13,7 +13,8 @@ Ce projet GitHub contient les codes et les fichiers nécessaires pour la régula
  ```catkin_make```
 
 3- Sourcez votre workspace :
-*source catkin_ws/devel/setup.bash
+
+```source catkin_ws/devel/setup.bash```
 
 ## Utilisation
 Régulation en cap
