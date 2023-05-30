@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import rospy
-from turtle_regulation_pemba_nathan1.srv import waypoint
+from turtle_regulation_pemba_nathan.srv import waypoint
 from geometry_msgs.msg import Point
 
 waypoint = Point()
